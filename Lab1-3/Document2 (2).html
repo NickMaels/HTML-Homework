@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<style>
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+.form-wrap {
+  width: 1099px;
+  background: #C3C3C3;
+  border-radius: 10px;
+  border: 1px solid #FFC90E;
+  padding: 10px;
+  height: 255px;
+}
+ 
+.form-wrap b {
+  font: 10px Verdana;
+}
+ 
+.form-wrap p {
+  font: 9px Verdana;
+  margin-bottom: 15px;
+}
+ 
+input:not([type=button]){
+  height: 35px;
+  border: 1px solid #FFC90E;
+  margin-bottom: 2px;
+  width: 100%;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+ 
+input[type=submit] {
+  width: 200px;
+  margin: 15px auto 0 auto;
+  display: block;
+  background: #FFC90E;
+  border-radius: 10px;
+  border: 1px solid #2FF840;
+  color: #fff;
+  font-size: 18px;
+}</style>
+</head>
+
+<body>
+<div class="form-wrap">
+  <b>Подобрать товар</b><br>
+  <p>Отправить списка товаров на Ваш e-mail</p>
+   <form action="" method="post">
+    <input type="text" name="user_name" maxlength="50" placeholder="Имя"><br>
+    <input type="text" name="amount" placeholder="Сумма"><br>
+    <input type="email" name="user_email" placeholder="e-mail"><br>
+    <input type="submit" name="sub" value="Отправить">
+   </form>
+   </div>
+
+
+</body>
+</html>

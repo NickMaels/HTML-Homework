@@ -1,0 +1,50 @@
+	table
+	{
+	margin-left:20px;
+	}
+	.border {
+         width: 920px;
+         height: 690px; 
+         border: 1px solid black;
+         display: block;
+		 }
+	body
+	{
+		font-size:25px;
+	}
+	.pro
+	{
+		font-size:32px;
+		font-family:Comic Sans MS, Comic Sans, cursive;
+	}
+	.country
+	{
+	    font-size:25px;
+		font-weight: 600;
+		color:#4d4d4d;
+		font-family:Comic Sans MS, Comic Sans, cursive;
+	}
+	.number
+	{
+		font-size:25px;
+		font-family:Comic Sans MS, Comic Sans, cursive;
+	}
+	.minisquare
+	{
+	    margin-top:-4px;
+		margin-left:29px;
+	}
+	.minisquare2
+	{
+	    margin-top:-4px;
+		margin-left:25px;
+	}
+	.minisquare3
+	{
+	    margin-top:-4px;
+		margin-left:13px;
+	}
+	.imgborder
+	{
+		border: 1px solid black;
+	}

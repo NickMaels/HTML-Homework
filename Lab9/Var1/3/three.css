@@ -1,0 +1,22 @@
+.form
+{
+    width: 820px;
+    height: 480px;
+}
+.text
+{
+    color:#1e59b8;
+    text-decoration: underline;
+}
+.text2
+{
+    font-size:12px;
+}
+.image
+{
+    float: left;
+}
+td
+{
+    border-bottom: 1px solid #c8c8c8;
+}

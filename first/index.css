@@ -1,0 +1,48 @@
+body
+{
+    font-family: Tahoma;
+}
+table
+{
+    padding-right:8px;
+    height: 300px;
+}
+.box 
+{
+    height: 370px;
+    width: 800px;
+    background:#1a1a1a;
+    padding:15px;
+}
+.minib
+{
+    height: 50px;
+    width: 50px;
+    background: white;
+}
+.flex
+{
+    display: flex;
+}
+.name
+{
+    color:white;
+    background: #2a2a2a;
+    padding: 10px;
+    font-size: 22px;
+}
+.stats
+{
+    color:#5d6264;
+    background: #2a2a2a;
+    border-top: 1px solid #2a2a2a ;
+    padding: 10px;
+}
+.price
+{
+    color: red;
+    background: #2a2a2a;
+    font-size: 20px;
+    border-top: 2px solid #5d6264; 
+    padding: 10px;
+}

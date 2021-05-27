@@ -1,0 +1,24 @@
+.main
+{
+	width:200px;
+	height:15px;
+	background:#0081e7;
+	color:white;
+	font-weight:600;
+	font-size:15px;
+	border:1px solid #0081e7;
+	padding-left:10px;
+	padding-top:7px;
+	padding-bottom:10px;
+	font-family:Tahoma;
+	margin-top:8px;
+}
+div:hover
+{
+	background:white;
+	color:#2116ff;
+}
+img
+{
+	float:right;
+}

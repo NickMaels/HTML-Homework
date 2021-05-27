@@ -1,0 +1,58 @@
+       td
+		{
+			color:white;
+		}
+		.row {
+         width: 630px;
+         height: 75px;
+         background:#005689; 
+         border-radius: 5px;
+         border: 0px #000;
+         display: block;
+		 }
+		 .rowlight {
+         width: 630px;
+         height: 75px;
+         background:#0092cf; 
+         border-radius: 5px;
+         border: 0px #000;
+         display: block;
+		 }
+		.lemididate
+		{
+			font-size:10px;
+		}
+		.date
+		{
+			font-size:20px;
+		}
+        .rowcolor
+        {
+        	background-color: #0092cf;
+
+        }
+        .rowcolor2
+        {
+        	background-color: #005689;
+        }
+        .custom
+        {
+        	border-radius: 10px;
+        }
+		.kmh
+		{
+			font-size:30px;
+		}
+		.grad
+		{
+			font-size:26px;
+		}
+		.procent
+		{
+			font-size:30px;
+		}
+		.interval
+		{
+			font-size:15px;
+			word-spacing: 65px;
+		}

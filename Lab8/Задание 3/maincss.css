@@ -1,0 +1,25 @@
+.form{
+  width: 460px;
+  height: 765px;
+  background: #7aa6d0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px gray;
+  border: 1px solid gray;
+  padding: 10px;
+  
+}
+.void
+{
+	 list-style-type: none;
+	 color:#315c3f;
+}
+.mainlist
+{
+	color:#11169d;
+	font-size:30px;
+	font-weight: 600;
+}
+.logo
+{
+	margin-left:115px
+}

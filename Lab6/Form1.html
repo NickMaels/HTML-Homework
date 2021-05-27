@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Input Form</title>
+	<style>
+ 
+.form-wrap {
+  width: 500px;
+  height: 650px;
+  background: #C3C3C3;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  
+}
+body
+{
+  font: 20px Verdana;
+  margin-bottom: 15px;
+}
+select{
+  width: 395px;
+  height:50px;
+  margin-bottom: 2px;
+  text-indent: 10px;
+  font-size:20px;
+  border: 1px solid black;
+}
+input:not([type=button]){
+  border: 1px solid black;
+}
+input[type=checkbox]
+{
+	width: 30px;	
+}
+input[type=radio]
+{
+	width: 30px;	
+}
+input[type=text]
+{
+    font-size:25px;
+	width: 450px;
+    height:50px;
+}
+input[type=submit] {
+  width: 200px;
+  margin: 15px auto 0 auto;
+  display: block;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  font-size: 18px;
+}
+input[type=reset] {
+  width: 200px;
+  margin: 15px auto 0 auto;
+  display: block;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  font-size: 18px;
+}
+	</style>
+</head>
+<body>
+
+
+<h1>User Input Form</h1>
+<div class=form-wrap>
+<form>
+<fieldset>
+<legend>Personal Particular</legend>
+Name:<br>
+<input type=text name=Name>
+<br>
+Password:<br>
+<input type=text name=Password> <br>
+
+Gender:
+<input type=radio name=gender id=male value=male>
+<label for=male>Male</label>
+
+<input type=radio name=gender id=female value=female>
+<label for=female>Female</label><br>
+Age:
+<select>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+<legend>Language</legend>
+<input type=checkbox id="Java" name=Java value=Java>
+<label for="Java">Java</label>
+
+<input type=checkbox id=C/C++ name=C/C++ value=C/C++>
+<label for=C/C++>C/C++</label>
+
+<input type=checkbox id=C# name=C# value=C#>
+<label for=C#>C#</label>
+</fieldset>
+
+<fieldset>
+<legend>Instruction</legend>
+<textarea id=Instruction placeholder="Enter yout instructions here....." rows=10 cols=60></textarea>
+</fieldset>
+<input type=submit value=SEND>
+<input type=reset value=CLEAR>
+
+</form>
+</div>
+</body>
+</html>

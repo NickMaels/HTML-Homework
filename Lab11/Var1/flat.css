@@ -1,0 +1,296 @@
+
+.form
+{
+  display: flex;
+  width: 1070px;
+  height: 550px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.7);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+body
+{
+    font-family:Tahoma;
+    padding-top:6%;
+	background:url(flat.jpg) no-repeat top center;
+	background-size: cover;
+}
+h1
+{
+	margin-left:25%;
+	margin-top:-1%;
+	font-size:40px;
+	text-shadow: 0 0 3px #111111;
+	text-decoration:underline;
+	
+}
+[type=number].price
+{
+	width:109px;
+	height:32px;
+	border-radius:5px;
+	border:1px solid #111111;
+	font-size:15px;
+	color:#555555;
+	outline: 0;
+    outline-offset: 0;
+	padding-left:4px;
+	margin-top:3%;
+}
+.money
+{
+	width:59px;
+	height:36px;
+	border-radius:5px;
+	border:1px solid #111111;
+	font-size:15px;
+	color:#555555;
+	outline: 0;
+    outline-offset: 0;
+	cursor: pointer;
+}
+select
+{
+	width:180px;
+	height:35px;
+	border-radius:5px;
+	border:1px solid #111111;
+	font-size:15px;
+	color:#555555;
+	outline: 0;
+    outline-offset: 0;
+	cursor: pointer;
+	
+}
+select:focus
+{
+	border:2px solid black;
+}
+.custom
+{
+	margin-left:50%;
+}
+input[type=submit]
+{
+	width:180px;
+	height:32px;
+	border-radius:5px;
+	border:1px solid #111111;
+	font-size:15px;
+	color:#555555;
+	outline: 0;
+    outline-offset: 0;
+	cursor: pointer;
+}
+input[type=submit]:hover
+{
+	background:#d6d6d6;
+}
+input[type=submit]:active
+{
+	background:#ffffff;
+}
+input[type=number]
+{
+	width:172px;
+	height:32px;
+	border-radius:5px;
+	border:1px solid #111111;
+	font-size:15px;
+	color:#555555;
+	outline: 0;
+    outline-offset: 0;
+	padding-left:4px;
+}
+input[type=number]:focus
+{
+	border:2px solid black;
+}
+input[type=text],[type=email]
+{
+	width:174px;
+	height:32px;
+	border-radius:5px;
+	border:1px solid #111111;
+	font-size:15px;
+	color:#555555;
+	outline: 0;
+    outline-offset: 0;
+	padding-left:4px;
+}
+input[type=text]:focus
+{
+	border:2px solid black;
+}
+input[type=email]:focus
+{
+	border:2px solid black;
+}
+input[type=reset]
+{
+	width:180px;
+	height:32px;
+	border-radius:5px;
+	border:1px solid #111111;
+	font-size:15px;
+	color:#555555;
+	outline: 0;
+    outline-offset: 0;
+	padding-left:4px;
+	cursor: pointer;
+}
+input[type=reset]:hover
+{
+	background:#d6d6d6;
+}
+input[type=reset]:active
+{
+	background:#ffffff;
+}
+input[type=file]
+{
+
+    font-size: 14px;
+	display: none;
+    
+}
+
+.boxupload
+{
+	width: 23%;
+    border: 1px solid #111111;
+	border-radius:5px;
+	background:#ffffff;
+	color:#555555;
+    padding: 6px 12px;
+    cursor: pointer;
+	margin-left:36px;
+}
+.boxupload:hover
+{
+	background:#d6d6d6;
+}
+.boxupload:active
+{
+	background:#ffffff;
+}
+.margin
+{
+	margin-left:3%;
+}
+.margin2
+{
+	margin-left:3%;
+	margin-top:3%;
+}
+.margin3
+{
+	margin-top:3%;
+}
+
+textarea
+{
+	float:right;
+	height:280px;
+	width:600px;
+	font-size:17px;
+	outline: 0;
+    outline-offset: 0;
+	padding-left:4px;
+	border-color:black;
+	border-radius:5px;
+	resize: none;
+	margin-top:4%;
+}
+textarea:focus
+{
+	border:2px solid black;
+}
+
+
+
+
+
+.cbx {
+  margin: auto;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color:Black;
+}
+.cbx span {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+  
+}
+.cbx span:first-child {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  transform: scale(1);
+  vertical-align: middle;
+  border: 1px solid black;
+  transition: all 0.2s ease;
+}
+.cbx span:first-child svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translate3d(0, 0, 0);
+}
+.cbx span:first-child:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background:#a6a6a6;
+  display: block;
+  transform: scale(0);
+  opacity: 1;
+  border-radius: 50%;
+}
+.cbx span:last-child {
+  padding-left: 8px;
+}
+.cbx:hover span:first-child {
+  border-color:#383838;
+}
+
+.inp-cbx:checked + .cbx span:first-child {
+  background: #a6a6a6;
+ border-color:#383838;
+  animation: wave 0.4s ease;
+}
+.inp-cbx:checked + .cbx span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.inp-cbx:checked + .cbx span:first-child:before {
+  transform: scale(3.5);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+
+@keyframes wave {
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+
+
+
+
+
+

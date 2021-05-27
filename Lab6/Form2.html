@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking</title>
+	<style>
+ 
+.form-wrap {
+  width: 1038px;
+  height: 230px;
+  background: #2a98f1;
+  padding: 10px;  
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.form-wrap b {
+  font: 10px Verdana;
+}
+ 
+.p1 {
+  font: 14px Verdana;
+  color:white;
+  margin-bottom: 15px;
+  margin-left: 410px;
+}
+.p2 {
+  font: 14px Verdana;
+  color:white;
+  margin-bottom: 15px;
+  margin-top: -32px;
+  margin-left: 620px;
+}
+.p3 {
+  font: 14px Verdana;
+  color:white;
+  margin-bottom: 15px;
+  margin-top: -32px;
+  margin-left: 820px;
+} 
+input:not([type=button]){
+  border: 1px solid white;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+select{
+  width: 200px;
+  height:50px;
+  border: 1px solid white;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+input[type=text]
+{
+	width: 200px;
+    height:50px;
+}
+input[type=date]
+{
+	width: 200px;
+    height:50px;
+}
+input[type=submit] {
+  width: 205px;
+  height:50px;
+  background: #f37a21;
+  color: #fff;
+  font-size: 18px;
+  indent:200px;
+  margin-top: 30px;
+  margin-left: 410px;
+}
+
+input[type=checkbox]
+{
+
+	margin-left: 350px;
+	margin-top: -100px;
+}
+.Check
+{
+  font: 14px Verdana;
+  color:white;
+  margin-bottom: 15px;
+  margin-left: 410px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="form-wrap">
+<form>
+<div class="p1"><p>Туда</p></div>  <div class="p2"><p>Оттуда</p></div> <div class="p3"><p>Пассажиры и класс</p></div> 
+<input type=text placeholder="Откуда">
+<input type=text placeholder="Куда">
+<input type=date>
+<input type=date>
+<select >
+<option>1 класс/1 пассажир</option>
+</select>
+<br>
+<label class=Check for="Check"><input type=checkbox value="Check" id="Check">Открыть Booking.com в новом окне</label>
+<input type=submit value="Найти Билеты"><br>
+
+</form>
+
+</div>
+
+</body>
+</html>

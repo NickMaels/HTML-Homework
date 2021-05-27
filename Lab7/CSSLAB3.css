@@ -1,0 +1,41 @@
+
+body
+{
+	background-image:url("https://i.ibb.co/7kpzF2H/OldPaper.jpg");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	font-size:25px;
+}
+.Galery
+{
+	margin-left:1200px;
+	margin-top:-95px;
+}
+.custom
+{
+	border-radius: 40px;
+	border: 10px solid black;
+}
+.mainh
+{
+    margin-left:150px;
+	font-size:100px;
+}
+.customh
+{
+	font-style:italic;
+}
+.linkcolor
+{
+	color:green;
+	text-decoration: none;
+}
+.list
+{
+	font-style:italic;
+	font-weight:600;
+}
+.onlyone
+{
+	font-style:italic;
+}

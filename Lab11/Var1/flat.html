@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flat</title>
+	<link rel=stylesheet href=flat.css>
+	<link rel="shortcut icon" href="house.png" type="image/x-icon">
+</head>
+<body>
+
+
+<div class=form>
+<form>
+	 
+	 <h1>Характеристика Квартиры</h1>
+	 
+      <select required>
+	  <option value="">Жилой Фонд</option>
+  	  <option value=New>Новостной</option>
+  	  <option value=Old>Вторичный</option>
+      </select>
+	  
+	
+	  
+	  <select required class=margin>
+  			<option value="">Колличество комнат</option>
+  			<option value=1>1-комнатная квартира</option>
+			<option value=2>2-х-комнатная квартира</option>
+			<option value=3>3-х-комнатная квартира</option>
+			<option value=3>4-х-комнатная квартира</option>
+			<option value=3>5-ти комн.кварт. и более</option>
+      </select>
+	  
+	  <select class=margin>
+  			<option value="">Планировка</option>
+  			<option value=1>102</option>
+			<option value=2>135</option>
+			<option value=3>143</option>
+			<option value=4>Брж(Брежневская)</option>
+			<option value=5>Варц(Варницкая)</option>
+			<option value=6>Гостинка</option>
+			<option value=7>Малосемейная</option>
+			<option value=8>Индивидуальная</option>
+			<option value=9>Мс(Молд.Серия)</option>
+			<option value=10>На земле</option>
+			<option value=11>Рубашка</option>
+			<option value=12>Ст(Сталинка)</option>
+			<option value=13>Хрущевка</option>
+			<option value=14>Чш(Чешка)</option>
+      </select>
+	  
+	  
+	  <select class=margin>
+  			<option value="">Балкон/лоджия</option>
+  			<option value=1>Нет</option>
+			<option value=2>1</option>
+			<option value=3>2</option>
+			<option value=3>3</option>
+			<option value=3>4 и более</option>
+      </select>
+	  
+	  <select class=margin>
+  			<option value="">Количество санузлов</option>
+  			<option value=1>Нет</option>
+			<option value=2>1</option>
+			<option value=3>2</option>
+			<option value=3>3</option>
+			<option value=3>4 и более</option>
+      </select>
+	 
+	  <input min=-1 type=number placeholder=Этаж>
+	  <input min=0 class=margin2 type=number placeholder="Количество этажей">
+	  <input min=1 class=margin2 required type=number placeholder="Общая площадь, м²">
+	  <input min=1 class=margin2 type=number placeholder="Жилая площадь, м²">
+	  
+	  
+	  <br>
+	  <br>
+	 
+      <textarea placeholder="Описание квартиры"></textarea>
+	
+	<input class="inp-cbx" id="cbx" type="checkbox" style="display: none"/>
+    <label class="cbx" for="cbx"><span>
+    <svg width="12px" height="10px" viewbox="0 0 12 10">
+    <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+    </svg></span><span>Наличие Интернета</span></label>
+	<br>
+	<br>
+	<input class="inp-cbx" id="cbx2" type="checkbox" style="display: none"/>
+    <label class="cbx" for="cbx2"><span>
+    <svg width="12px" height="10px" viewbox="0 0 12 10">
+    <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+    </svg></span><span>Наличие Телефона</span></label>
+	<br><br>
+	
+	<label for="file-upload">Загрузить Фотографию:</label>
+	
+	<label for="file-upload" class="custom-file-upload">
+	<span class=boxupload>
+	<i class="fa fa-cloud-upload"></i> Выбрать файл
+	</label>
+	</span>
+	<input id="file-upload" tabindex="9" name="plan" type="file"/>
+	
+	<br>
+	  <select required class=margin3>
+  			<option value="">Район</option>
+  			<option value=1>Кишинев Мун.</option>
+			<option value=2>Бельцы Мун.</option>
+			<option value=3>Тирасполь Мун.</option>
+			<option value=3>Бендеры Мун.</option>
+			<option value=3>Бессарабка</option>
+			<option value=3>Бричаны</option>
+			<option value=3>Григорополь</option>
+			<option value=3>Чимишлия</option>
+			<option value=3>Окница</option>
+      </select>
+	  
+	  <input class=margin2 placeholder="Адрес" type=text>
+	  <br>
+	  <input required class=margin3 type=number placeholder="Номер телефона">
+	  <input class=margin2 type=email placeholder="Электронная почта">
+	  <input min=1 class=price type=number required placeholder=Цена>
+	  
+	  <select class=money>
+	  <option>€</option>
+	  <option>$</option>
+	  <option>MDL</option>
+	  </select>
+	  <br>
+      <input type=submit>
+	  <input class=margin2 type=reset>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.form{
+  width: 850px;
+  height: 35px;
+  background: #dff6e1;
+  /*border-radius: 10px;*/
+  /*box-shadow: 0 0 20px gray;*/
+  border: 1px solid #bfd9c1;
+  padding: 8px;
+}
+.text
+{
+	color:#17358f;
+	font-weight: 600;
+	font-size:18px;
+	margin-left:6%;
+	margin-top:-5%;
+}
+.text2
+{
+	color:#7c9940;
+	margin-left:6%;
+	font-size:18px;
+}
+.close
+{
+    float:right;
+	margin-left:97%;
+	margin-top:-3%;
+}

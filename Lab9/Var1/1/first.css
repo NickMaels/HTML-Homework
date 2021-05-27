@@ -1,0 +1,45 @@
+.firstbox
+{
+    width: 780px;
+    height: 200px;
+    border: 0px solid black;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondbox
+{
+    width:170px;
+    height:110px;
+    border: 2px dashed red;
+    border-radius: 8px;
+    float: right;
+    margin-top: -7%;
+    padding: 8px;
+}
+.text
+{
+    color:#ff0000;
+    font-size: 35px;
+    font-weight: 600;
+}
+.text2
+{
+    color:#393b52;
+    font-size:35px;
+    font-weight: 600;
+}
+.sale
+{
+    color:#393b52;
+    font-size:30px;
+    font-weight: 600;
+}
+.procent
+{
+    color:#ff0000;
+    font-size: 75px;
+    font-weight: 600;
+    margin-right: 10%;
+}

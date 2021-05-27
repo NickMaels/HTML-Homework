@@ -1,0 +1,27 @@
+td
+{
+	width:100px;
+	height:100px;
+	border:0.1px solid black;
+}
+th
+{
+	font-family:Tahoma;
+	font-size:20px;
+	border-left:none;
+}
+tr:nth-child(odd) td:nth-child(even)
+{
+	background:#b58863;
+}	
+tr:nth-child(even) td:nth-child(odd)
+{
+	background:#b58863;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+	background:#f0d9b5;
+}	
+tr:nth-child(even) td:nth-child(even) {
+	background: #f0d9b5;
+}

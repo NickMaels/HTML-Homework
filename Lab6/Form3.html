@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Калькулятор Каско</title>
+	<style>
+	
+.two{
+  width: 800px;
+  height: 485px;
+  background: #f0f0f0;
+  padding: 10px;
+}
+.owner{
+  width: 800px;
+  height: 290px;
+  background: #f0f0f0;
+  padding: 10px;
+}
+p {
+  font: 15px Verdana;
+  color:black;
+}
+input:not([type=button]){
+  border: 1px solid #7bb569;
+}
+.mini1
+{
+	font-size:25px;
+	width: 150px;
+    height:50px;
+	margin-left: 136px;
+}
+.mini2
+{
+	font-size:25px;
+	width: 150px;
+    height:50px;
+	margin-left: 140px;
+}
+.Mark
+{
+	font-size:25px;
+	width: 450px;
+    height:50px;
+	margin-left: 227px;
+}
+.Mark2
+{
+	font-size:25px;
+	width: 450px;
+    height:50px;
+	margin-left: 95px;
+}
+.Mark3
+{
+	font-size:25px;
+	width: 450px;
+    height:50px;
+	margin-left: 57px;
+}
+.FirstSelect
+{
+	font-size:15px;
+	width: 180px;
+    height:50px;
+	margin-left: 100px;
+	border: 1px solid #7bb569;
+}
+.SecondSelect
+{
+	font-size:25px;
+	width: 100px;
+    height:50px;
+	border: 1px solid #7bb569;
+	margin-left: 177px;
+}
+.ListCheck
+{
+	margin-left: 279px;
+}
+.p3
+{
+	margin-left: 100px;
+}
+.Region
+{
+	font-size:25px;
+	width: 450px;
+    height:50px;
+	margin-left: 32px;
+}
+.Region2
+{
+	font-size:25px;
+	width: 450px;
+    height:50px;
+	margin-left: 9px;
+}
+.Radio
+{
+	margin-left: 73px;
+}
+h4
+{
+	color:#7bb569;
+}
+.age
+{
+	font-size:25px;
+	width: 100px;
+    height:50px;
+	border: 1px solid #7bb569;
+	margin-left: 50px;
+}
+.face1
+{
+	margin-left: 272px;
+}
+.withoutrules
+{
+	margin-left: 270px;
+}
+.gender
+{
+	margin-left: 213px;
+}
+.customtext
+{
+	color:#7bb569;
+	margin-left: 210px;
+}
+.customage
+{
+  font: 15px Verdana;
+  color:black;
+}
+.customcheck
+{
+	font-size:12px;
+}
+input[type=submit] {
+  width: 200px;
+  height:50px;
+  margin: 20px auto 0 auto;
+  display: block;
+  background: #7bb569;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: black;
+  font-size: 18px;
+}
+h1
+{
+	margin-left: 250px;
+}
+</style>
+</head>
+<body>
+<h1>Калькулятор Каско</h1>
+
+<form>
+<p>Валюта Полиса Рубль<br>Срок страхования 1 год</p>
+
+Период оплаты полиса
+<select class=FirstSelect>
+<option>Единовременно</option>
+</select>
+</form>
+
+<h4>Автомобиль</h4>
+<div class=two>
+<form>
+<p>Марка
+<input class=Mark type=text placeholder="Например, AUDI"><br>
+</p>
+<p>Год Выпуска
+<select class=SecondSelect>
+<option>2020</option>
+</select>
+</p>
+<p>Страховая сумма, руб*
+<input class=Mark2 type=number><br>
+</p>
+<p>Противоугонное Устройство
+<input class=Mark3 type=text placeholder="введите название, например:Starline"><br>
+</p>
+<p class=ListCheck>
+<label class=Check for="Check"><input type=checkbox value="Check" id="Check">Механическое противоугонное устройство</label><br>
+<label class=Check for="Check2"><input type=checkbox value="Check" id="Check2">Пробег менне 1000км</label><br>
+<label class=Check for="Check3"><input type=checkbox value="Check" id="Check3">ТС находится в залоге у банка</label><br>
+</p>
+<p>Колличество мест <input class=mini1 type=number></p>
+<p>Колличество ДТП <input class=mini2 type=number></p>
+
+
+
+
+<p>Регион приобретения полиса* <input class=Region type=text></p>
+<p>Место жительства собственника* <input  class=Region2 type=text></p>
+<p>Территория страхования
+<label class=Radio for=Russia><input type=radio name=region id=Russia value=Russia>Россия</label>
+<label for=RussiaAndOthers><input type=radio name=region id=RussiaAndOthers value=RussiaAndOthers>Россия и зарубежные страны</label>
+</p>
+</form>
+
+<h4>Владелец</h4>
+<div class=owner>
+<form>
+<p>
+<label class=face1 for=Fiz><input type=radio name=Face id=Fiz value=Fiz>Физическое Лицо</label>
+<label for=Yur><input type=radio name=Face id=Yur value=Yur>Юридическое Лицо</label>
+</p>
+
+<p>
+Лица, допущенные к управлению
+<label for=One><input type=radio name=Rule id=One value=One>Без Ограничения</label>
+<label for=Two><input type=radio name=Rule id=Two value=Two>Ограниченный список</label><br>
+<label class=withoutrules for=Three><input type=radio name=Rule id=Three value=Three>Без Ограничения 22+, 2+</label>
+</p>
+
+
+<p> Водитель: <div class=customage> Возраст(полных лет)<input class=age type=number> Водительский Стаж<input class=age type=number></div></p>
+
+<p class=gender>
+Пол Водителя
+<label for=Male><input type=radio name=gender id=Male value=One>Мужской</label>
+<label for=FeMale><input type=radio name=gender id=FeMale value=Two>женский</label><br>
+</p>
+<br>
+<p class=customtext>Добавить еще одного водителя</p>
+</div>
+
+
+<p>Вариант Выплат страхового возмещения</p>
+<p class=customradio>
+<label for=Repair><input type=radio name=Repair id=Repair value=One>Ремонт на СТОА официальных дилеров по направлению страховой компании</label><br>
+<label for=NonRapair><input type=radio name=Repair id=NonRapair value=Two>Ремонт на СТОА, не являющихся официальными дилерами, по направлению страховой компании</label>
+</p>
+
+<input type=submit value=Расчитать>
+</form>
+</body>
+</html>

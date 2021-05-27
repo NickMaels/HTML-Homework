@@ -1,0 +1,30 @@
+.form
+{
+    width: 300px;
+    height: 350px;
+    border: 8px solid #dedede;
+    border-bottom:8px solid #dedede;
+    box-shadow: 0 0 10px grey;
+    padding: 8px;
+}
+.text
+{
+    color:#5c94cc;
+    font-size: 18px;
+}
+.text2
+{
+   color: grey; 
+}
+.text3
+{
+    color:#bababa;
+}
+td
+{
+    border-bottom:2px solid grey;
+}
+.even
+{
+    border-bottom:2px dotted grey;
+}
